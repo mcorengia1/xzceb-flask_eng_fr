@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-apikey = 'vq51dmHY8NbEEWjpz-YsjRKfNIK7nH0pwV4mHWMhM-tz'
-url = 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/ccc968b2-bc32-4745-b45b-7e6db0381692'
+apikey = '' #your keys
+url = '' #your keys
 
 authenticator = IAMAuthenticator(apikey)
 language_translator = LanguageTranslatorV3(
